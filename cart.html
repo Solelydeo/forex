@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <ul>
+        <li>
+            <label>
+                <input type="checkbox" data-course="Introductory" data-price="49.99">
+                Introductory Course - $49.99
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" data-course="Intermediate" data-price="79.99">
+                Intermediate Course - $79.99
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" data-course="Advanced" data-price="99.99">
+                Advanced Course - $99.99
+            </label>
+        </li>
+    </ul>
+
+    <h2>CHECKOUT</h2>
+    <ul id="cart">
+    </ul>
+
+    <p>Total: $<span id="total">0.00</span></p>
+    <script src="./cartscipt.js"></script>
+</body>
+</html>
